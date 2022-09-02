@@ -1,0 +1,9 @@
+type: group
+fields: 
+  popupText:
+    type: textarea
+    label: Popup Warnungstext
+    default: "Hey, you're using %browsername Version: %browserversion That's an unsafe and old browser. We recommend getting a modern one from the list below: \n (link: https://www.google.com/intl/de_de/chrome/ text: Google Chrome target: new) \n (link: https://www.apple.com/de/safari/ https://www.mozilla.org/de/firefox/new/ text: Mozilla Firefox target: new) \n (link: text: Apple Safari target: new)"
+  popupButton:
+    type: text
+    label: Button-Beschriftung
